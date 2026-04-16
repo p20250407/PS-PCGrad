@@ -1,0 +1,9 @@
+data_set,arch,forget_cls,budget_b,strength,mask_mode,mia_before,mia_after,mia_drop,gap_before,gap_after,forget_acc,retain_acc
+CIFAR100,ResNet-18,apple,0.03,0.1,structured,0.5579,0.4877,0.0702,0.0667,-0.0091,0.0,74.96
+CIFAR100,ResNet-18,otter,0.05,1.0,random,0.7745,0.4454,0.3291,0.1945,-0.0416,0.0,72.64
+CIFAR100,ResNet-18,seal,0.25,1.5,structured,0.7664,0.4328,0.3336,0.1761,-0.0599,0.0,73.86
+CIFAR100,ResNet-18,apple+otter+seal,0.03,0.1,structured,0.6868,0.5008,0.186,0.1458,0.005,0.0,71.62
+CIFAR100,EfficientNet-B0,apple,0.03,0.1,structured,0.5757,0.4872,0.0885,0.0729,-0.0097,0.0,70.63
+CIFAR100,EfficientNet-B0,otter,0.005,2.0,random,0.7015,0.4289,0.2726,0.1413,-0.045,4.0,72.25
+CIFAR100,EfficientNet-B0,seal,0.05,1.5,structured,0.646,0.4086,0.2374,0.1209,-0.0781,2.0,68.25
+CIFAR100,EfficientNet-B0,apple+otter+seal,0.03,0.1,structured,0.6258,0.4743,0.1515,0.1117,-0.021,0.0,67.52

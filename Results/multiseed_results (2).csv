@@ -1,0 +1,14 @@
+seed,data_set,arch,forget_cls,budget_b,strength,mask_mode,forget_acc,retain_acc,overall_acc,score,best_epoch,time_s
+123,CIFAR10,ResNet-18,airplane,0.003,2.0,structured,0.0,88.2,79.38,,1,16.6
+123,CIFAR10,EfficientNet-B0,airplane,0.02,0.1,structured,55.3,82.39,79.68,nan,1,58.4
+123,CIFAR100,ResNet-18,airplane,0.03,0.1,structured,0.0,78.26,70.43,,2,36.4
+123,CIFAR100,EfficientNet-B0,airplane,0.03,0.1,structured,53.7,81.96,79.13,nan,1,59.2
+123,CIFAR10,ResNet-18,airplane+automobile+bird,0.25,2.0,random,4.63,72.44,52.1,nan,1,158.3
+123,CIFAR10,ResNet-18,airplane,0.003,2.0,structured,0.0,88.2,79.38,,1,17.8
+123,CIFAR10,EfficientNet-B0,airplane,0.02,0.1,structured,55.3,82.39,79.68,nan,1,59.4
+123,CIFAR100,ResNet-18,airplane,0.03,0.1,structured,0.0,78.26,70.43,,2,34.8
+123,CIFAR100,EfficientNet-B0,airplane,0.03,0.1,structured,53.7,81.96,79.13,nan,1,59.6
+123,CIFAR10,ResNet-18,airplane+automobile+bird,0.25,2.0,random,4.63,72.44,52.1,nan,1,158.3
+123,CIFAR10,ResNet-18,airplane,0.003,2.0,structured,0.0,88.2,79.38,,1,18.0
+123,CIFAR100,ResNet-18,airplane,0.03,0.1,structured,0.0,78.3,70.47,,2,44.6
+123,CIFAR100,EfficientNet-B0,airplane,0.03,0.1,structured,52.0,82.12,79.11,nan,1,62.2
